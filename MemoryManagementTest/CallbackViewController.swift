@@ -12,11 +12,12 @@ class CallbackViewController: UIViewController {
     // MARK: Properties
     lazy var button = UIButton()
     lazy var delayViewModel = DelayViewModel { 
+        /// Uncomment this line to prevent a retain cycle
 //        [weak self] in
 //        guard let self else {
 //            return
 //        }
-        // Uncomment this line to prevent a retain cycle
+        
         self.onCallback()
     }
     
