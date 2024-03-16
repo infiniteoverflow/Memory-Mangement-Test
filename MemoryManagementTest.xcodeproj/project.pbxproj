@@ -14,7 +14,7 @@
 		6C77ED232BA5579D00A337CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C77ED212BA5579D00A337CA /* LaunchScreen.storyboard */; };
 		6C77ED2B2BA55E5300A337CA /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C77ED2A2BA55E5300A337CA /* AppConstants.swift */; };
 		6C77ED2D2BA5640600A337CA /* CallbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C77ED2C2BA5640600A337CA /* CallbackViewController.swift */; };
-		6C77ED2F2BA5643600A337CA /* DelayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C77ED2E2BA5643600A337CA /* DelayViewController.swift */; };
+		6C77ED2F2BA5643600A337CA /* DelayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C77ED2E2BA5643600A337CA /* DelayViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		6C77ED242BA5579D00A337CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C77ED2A2BA55E5300A337CA /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		6C77ED2C2BA5640600A337CA /* CallbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallbackViewController.swift; sourceTree = "<group>"; };
-		6C77ED2E2BA5643600A337CA /* DelayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayViewController.swift; sourceTree = "<group>"; };
+		6C77ED2E2BA5643600A337CA /* DelayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 				6C77ED242BA5579D00A337CA /* Info.plist */,
 				6C77ED2A2BA55E5300A337CA /* AppConstants.swift */,
 				6C77ED2C2BA5640600A337CA /* CallbackViewController.swift */,
-				6C77ED2E2BA5643600A337CA /* DelayViewController.swift */,
+				6C77ED2E2BA5643600A337CA /* DelayViewModel.swift */,
 			);
 			path = MemoryManagementTest;
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 			files = (
 				6C77ED1B2BA5579C00A337CA /* HomeViewController.swift in Sources */,
 				6C77ED2D2BA5640600A337CA /* CallbackViewController.swift in Sources */,
-				6C77ED2F2BA5643600A337CA /* DelayViewController.swift in Sources */,
+				6C77ED2F2BA5643600A337CA /* DelayViewModel.swift in Sources */,
 				6C77ED172BA5579C00A337CA /* AppDelegate.swift in Sources */,
 				6C77ED192BA5579C00A337CA /* SceneDelegate.swift in Sources */,
 				6C77ED2B2BA55E5300A337CA /* AppConstants.swift in Sources */,

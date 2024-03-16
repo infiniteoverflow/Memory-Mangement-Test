@@ -1,5 +1,5 @@
 //
-//  DelayViewController.swift
+//  DelayViewModel.swift
 //  MemoryManagementTest
 //
 //  Created by Aswin Gopinathan on 16/03/24.
