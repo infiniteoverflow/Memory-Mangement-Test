@@ -30,6 +30,10 @@ class HomeViewController: UIViewController {
         addConstraintForButton()
     }
     
+    deinit {
+        print("HomeViewController Deallocated")
+    }
+    
     private func addConstraintForButton() {
         button.translatesAutoresizingMaskIntoConstraints = false
         let centerXConstraint = NSLayoutConstraint(item: button,
@@ -75,7 +79,7 @@ class HomeViewController: UIViewController {
         guard let navigationController = self.navigationController else {
             return
         }
-        navigationController.pushViewController(HomeViewController(), animated: true)
+        navigationController.pushViewController(CallbackViewController(), animated: true)
     }
 }
 
