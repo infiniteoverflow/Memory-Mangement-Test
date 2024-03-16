@@ -1,3 +1,6 @@
+<h2>Aim</h2>
+Understand retain cycle when working with closures in swift
+
 <h2>Pre-setup</h2>
 
 Follow the steps to setup a alert when a ViewController is deallocated:
